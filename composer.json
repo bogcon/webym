@@ -1,0 +1,28 @@
+{
+    "name": "bogcon/webym",
+    "description": "Browser based Yahoo! Messenger using 'bogcon/yahoo-messenger-api' package",
+    "type": "project",
+    "keywords": [
+        "yahoo",
+        "messenger",
+        "yahoo-messenger-api"
+    ],
+    "homepage": "https://github.com/bogcon/webym",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Bogdan Constantinescu",
+            "email": "{first3LettersFromFirstname}_{first3LettersFromLastname}@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "bogcon/yahoo-messenger-api": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "BogCon\\WebYm\\": "classes/",
+            "BogCon\\YahooMessengerApi\\": "vendor/bogcon/yahoo-messenger-api/src/"
+        }
+    }
+}

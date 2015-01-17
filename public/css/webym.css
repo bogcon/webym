@@ -1,0 +1,33 @@
+/**
+ * CSS File for WebYM.
+ *
+ * @author      Bogdan Constantinescu <bog_con@yahoo.com>
+ * @link        GitHub https://github.com/bogcon/webym
+ * @license     New BSD License (http://opensource.org/licenses/BSD-3-Clause); see LICENSE.txt
+ */
+
+.input-group { width: 100%; }
+.webym-login .input-group label { font-weight: 300; }
+.error { color: red; font-size: 85%; }
+.input-error { border: 1px #FF0000 solid; }
+.nopadr { padding-right: 0; }
+.mb05 { margin-bottom: 0.5em; }
+.ml05{ margin-left: 0.5em; }
+.offline { display: none; }
+.media-list { font-size: 93%; margin: 0; padding: 0; }
+.media, .media .media { margin: 0; cursor: default; }
+.groupname{ background-color: #EFEFEF; font-weight: 500; padding-left: 1em; border: 1px solid #FFF; }
+.online-option { background:transparent url('../images/online.png') no-repeat 5px 5px; padding: 5px 0 5px 30px; }
+.busy-option { background:transparent url('../images/busy.png') no-repeat 5px 5px; padding: 5px 0 5px 30px; }
+.invisible-option { background:transparent url('../images/offline.png') no-repeat 5px 5px; padding: 5px 0 5px 30px; }
+.idle-option { background:transparent url('../images/idle.png') no-repeat 5px 5px; padding: 5px 0 5px 30px; }
+.ycontact-statusmessage { font-size: 93%; height: 14px; margin-top: 3px; }
+.ycontact-nickname img { margin-right: 10px; }
+.italic { font-style: italic; }
+.ycontact { padding: 1px 0 1px 0; border-bottom: 1px solid #FFF; }
+.ycontact:hover { color: #000; }
+.webym-contacts { border-radius:3px; box-shadow: 3px 3px 5px #888888; background-color: #DDD; }
+.webym-ym { display: none; }
+.webym-buddies { overflow-y: scroll; height: 400px; }
+.messagesContainer { height: 290px; overflow-y: scroll; font-size: 85%; border-left: 1px solid #DDD; border-right:  1px solid #DDD; padding: 5px 0 5px 5px; }
+.footer { font-size: 85%; text-align: center; }

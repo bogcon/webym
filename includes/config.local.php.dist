@@ -1,0 +1,21 @@
+<?php
+/**
+ * Local Configuration Override
+ *
+ * This configuration override file is for overriding environment-specific and
+ * security-sensitive configuration information. Copy this file without the
+ * .dist extension at the end and populate values as needed.
+ *
+ * @NOTE: This file is ignored from Git in .gitignore file. This is a good practice,
+ * as it prevents sensitive credentials from accidentally being committed into version control.
+ *
+ * @author      Bogdan Constantinescu <bog_con@yahoo.com>
+ * @link        GitHub  https://github.com/bogcon/webym
+ * @license     New BSD License (http://opensource.org/licenses/BSD-3-Clause); see LICENSE.txt
+*/
+
+// TODO put your app consumer key taken from Yahoo here
+defined('APP_CONSUMER_KEY') || define('APP_CONSUMER_KEY', '');
+// TODO put your app consumer secret taken from Yahoo here
+defined('APP_CONSUMER_SECRET') || define('APP_CONSUMER_SECRET', '');
+
